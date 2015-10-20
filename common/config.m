@@ -335,7 +335,6 @@ NSError *
 cfgInit(void)
 {
     NSError *error;
-    BOOL rc;
 
     error = configInitMom();
     if (error != nil) {

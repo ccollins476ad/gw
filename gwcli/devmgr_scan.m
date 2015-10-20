@@ -31,6 +31,33 @@
 
 static GWPeripheral *devmgr_scan_peripheral;
 
+static GWCharacteristic *
+devmgr_scan_characteristic_at_idx(int idx)
+{
+    GWCharacteristic *characteristic;
+    GWService *service;
+    int char_idx;
+
+    assert(devmgr_scan_peripheral.cbPeripheral != nil);
+
+    char_idx = 0;
+    for (service in devmgr_scan_peripheral.services) {
+        if (service.cbService != nil) {
+            for (characteristic in service.characteristics) {
+                if (characteristic.cbCharacteristic != nil) {
+                    if (char_idx == idx) {
+                        return characteristic;
+                    }
+
+                    char_idx++;
+                }
+            }
+        }
+    }
+
+    return nil;
+}
+
 static int
 devmgr_scan_peripheral_read(int *arg)
 {
@@ -76,7 +103,7 @@ devmgr_scan_peripheral_print(void)
 
                 for (characteristic in service.characteristics) {
                     if (characteristic.cbCharacteristic != nil) {
-                        if (characteristic.cfg != nil) {
+                        if (characteristic.cfg == nil) {
                             snprintf(idx_str, sizeof idx_str, "%3d", char_idx);
                         } else {
                             snprintf(idx_str, sizeof idx_str, "  *");
@@ -95,6 +122,7 @@ devmgr_scan_peripheral_print(void)
 void
 devmgr_scan_peripheral_prompt(void)
 {
+    GWCharacteristic *characteristic;
     int input;
     int devid;
 
@@ -108,7 +136,10 @@ devmgr_scan_peripheral_prompt(void)
 
     switch (input) {
     case DEVMGR_INPUT_SCAN_PERIPHERAL_CHARACTERISTIC:
-        printf("\n");
+        characteristic = devmgr_scan_characteristic_at_idx(devid);
+        if (characteristic != nil && characteristic.cfg == nil) {
+            characteristic.cfg = [CfgCharacteristic new];
+        }
         break;
 
     case DEVMGR_INPUT_SCAN_TOP_QUIT:

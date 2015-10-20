@@ -604,6 +604,9 @@
 		8CD7160B1BD0228500695E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				KEEP_PRIVATE_EXTERNS = YES;
+				OTHER_CFLAGS = "-ggdb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 			};
@@ -612,6 +615,8 @@
 		8CD7160C1BD0228500695E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				KEEP_PRIVATE_EXTERNS = YES;
+				OTHER_CFLAGS = "-ggdb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 			};

@@ -16,6 +16,7 @@
 
 #import <stdio.h>
 #import <stdlib.h>
+#import <string.h>
 #import "util.h"
 
 int
