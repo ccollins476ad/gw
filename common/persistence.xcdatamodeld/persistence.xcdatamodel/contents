@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D2134" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PersistCharacteristic" syncable="YES">
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PersistMessage" inverseName="characteristic" inverseEntity="PersistMessage" syncable="YES"/>
+        <relationship name="service" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersistService" inverseName="characteristics" inverseEntity="PersistService" syncable="YES"/>
+    </entity>
+    <entity name="PersistMessage" syncable="YES">
+        <attribute name="data" attributeType="Binary" syncable="YES"/>
+        <attribute name="date" attributeType="Date" syncable="YES"/>
+        <relationship name="characteristic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersistCharacteristic" inverseName="messages" inverseEntity="PersistCharacteristic" syncable="YES"/>
+    </entity>
+    <entity name="PersistPeripheral" syncable="YES">
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="services" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PersistService" inverseName="peripheral" inverseEntity="PersistService" syncable="YES"/>
+    </entity>
+    <entity name="PersistService" syncable="YES">
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="characteristics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PersistCharacteristic" inverseName="service" inverseEntity="PersistCharacteristic" syncable="YES"/>
+        <relationship name="peripheral" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersistPeripheral" inverseName="services" inverseEntity="PersistPeripheral" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PersistCharacteristic" positionX="-36" positionY="27" width="128" height="90"/>
+        <element name="PersistMessage" positionX="-18" positionY="45" width="128" height="90"/>
+        <element name="PersistPeripheral" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="PersistService" positionX="-54" positionY="0" width="128" height="90"/>
+    </elements>
+</model>

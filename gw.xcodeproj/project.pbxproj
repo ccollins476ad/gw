@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C9BDCEE1BD04A4A0012F490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDCED1BD04A4A0012F490 /* AppDelegate.m */; };
+		8C9BDCF01BD04A4A0012F490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDCEF1BD04A4A0012F490 /* main.m */; };
+		8C9BDCF21BD04A4A0012F490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9BDCF11BD04A4A0012F490 /* Images.xcassets */; };
+		8C9BDCF51BD04A4A0012F490 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9BDCF31BD04A4A0012F490 /* MainMenu.xib */; };
+		8C9BDD011BD04A4A0012F490 /* gwcocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD001BD04A4A0012F490 /* gwcocoaTests.m */; };
+		8C9BDD211BD04F710012F490 /* central.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0A1BD04F710012F490 /* central.m */; };
+		8C9BDD221BD04F710012F490 /* central.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0A1BD04F710012F490 /* central.m */; };
+		8C9BDD231BD04F710012F490 /* central.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0A1BD04F710012F490 /* central.m */; };
+		8C9BDD241BD04F710012F490 /* characteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0C1BD04F710012F490 /* characteristic.m */; };
+		8C9BDD251BD04F710012F490 /* characteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0C1BD04F710012F490 /* characteristic.m */; };
+		8C9BDD261BD04F710012F490 /* characteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0C1BD04F710012F490 /* characteristic.m */; };
+		8C9BDD271BD04F710012F490 /* config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0E1BD04F710012F490 /* config.m */; };
+		8C9BDD281BD04F710012F490 /* config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0E1BD04F710012F490 /* config.m */; };
+		8C9BDD291BD04F710012F490 /* config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0E1BD04F710012F490 /* config.m */; };
+		8C9BDD2A1BD04F710012F490 /* configuration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0F1BD04F710012F490 /* configuration.xcdatamodeld */; };
+		8C9BDD2B1BD04F710012F490 /* configuration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0F1BD04F710012F490 /* configuration.xcdatamodeld */; };
+		8C9BDD2C1BD04F710012F490 /* configuration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD0F1BD04F710012F490 /* configuration.xcdatamodeld */; };
+		8C9BDD2D1BD04F710012F490 /* logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD121BD04F710012F490 /* logging.m */; };
+		8C9BDD2E1BD04F710012F490 /* logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD121BD04F710012F490 /* logging.m */; };
+		8C9BDD2F1BD04F710012F490 /* logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD121BD04F710012F490 /* logging.m */; };
+		8C9BDD301BD04F710012F490 /* misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD141BD04F710012F490 /* misc.m */; };
+		8C9BDD311BD04F710012F490 /* misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD141BD04F710012F490 /* misc.m */; };
+		8C9BDD321BD04F710012F490 /* misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD141BD04F710012F490 /* misc.m */; };
+		8C9BDD331BD04F710012F490 /* network.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD161BD04F710012F490 /* network.m */; };
+		8C9BDD341BD04F710012F490 /* network.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD161BD04F710012F490 /* network.m */; };
+		8C9BDD351BD04F710012F490 /* network.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD161BD04F710012F490 /* network.m */; };
+		8C9BDD361BD04F710012F490 /* peripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD181BD04F710012F490 /* peripheral.m */; };
+		8C9BDD371BD04F710012F490 /* peripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD181BD04F710012F490 /* peripheral.m */; };
+		8C9BDD381BD04F710012F490 /* peripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD181BD04F710012F490 /* peripheral.m */; };
+		8C9BDD391BD04F710012F490 /* persist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1A1BD04F710012F490 /* persist.m */; };
+		8C9BDD3A1BD04F710012F490 /* persist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1A1BD04F710012F490 /* persist.m */; };
+		8C9BDD3B1BD04F710012F490 /* persist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1A1BD04F710012F490 /* persist.m */; };
+		8C9BDD3C1BD04F710012F490 /* persistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1B1BD04F710012F490 /* persistence.xcdatamodeld */; };
+		8C9BDD3D1BD04F710012F490 /* persistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1B1BD04F710012F490 /* persistence.xcdatamodeld */; };
+		8C9BDD3E1BD04F710012F490 /* persistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1B1BD04F710012F490 /* persistence.xcdatamodeld */; };
+		8C9BDD3F1BD04F710012F490 /* scan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1E1BD04F710012F490 /* scan.m */; };
+		8C9BDD401BD04F710012F490 /* scan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1E1BD04F710012F490 /* scan.m */; };
+		8C9BDD411BD04F710012F490 /* scan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD1E1BD04F710012F490 /* scan.m */; };
+		8C9BDD421BD04F710012F490 /* service.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD201BD04F710012F490 /* service.m */; };
+		8C9BDD431BD04F710012F490 /* service.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD201BD04F710012F490 /* service.m */; };
+		8C9BDD441BD04F710012F490 /* service.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD201BD04F710012F490 /* service.m */; };
+		8C9BDD541BD0922A0012F490 /* devmgrwindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9BDD531BD0922A0012F490 /* devmgrwindow.xib */; };
+		8C9BDD551BD0922A0012F490 /* devmgrwindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9BDD531BD0922A0012F490 /* devmgrwindow.xib */; };
+		8C9BDD581BD19A640012F490 /* devmgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BDD571BD19A640012F490 /* devmgr.m */; };
+		8CD716071BD0228500695E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD716061BD0228500695E04 /* main.m */; };
+		8CE7267F1BD59065009547E4 /* options.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7267E1BD59065009547E4 /* options.m */; };
+		8CE726841BD5B47B009547E4 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE726821BD5B47B009547E4 /* util.m */; };
+		8CE726881BD5B840009547E4 /* devmgr_scan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE726871BD5B840009547E4 /* devmgr_scan.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C9BDCFB1BD04A4A0012F490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD715FB1BD0228500695E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9BDCE71BD04A4A0012F490;
+			remoteInfo = gwcocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CD716011BD0228500695E04 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C9BDCE81BD04A4A0012F490 /* gwcocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gwcocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9BDCEB1BD04A4A0012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9BDCEC1BD04A4A0012F490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C9BDCED1BD04A4A0012F490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C9BDCEF1BD04A4A0012F490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C9BDCF11BD04A4A0012F490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C9BDCF41BD04A4A0012F490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8C9BDCFA1BD04A4A0012F490 /* gwcocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gwcocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9BDCFF1BD04A4A0012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9BDD001BD04A4A0012F490 /* gwcocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gwcocoaTests.m; sourceTree = "<group>"; };
+		8C9BDD091BD04F710012F490 /* central.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = central.h; sourceTree = "<group>"; };
+		8C9BDD0A1BD04F710012F490 /* central.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = central.m; sourceTree = "<group>"; };
+		8C9BDD0B1BD04F710012F490 /* characteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = characteristic.h; sourceTree = "<group>"; };
+		8C9BDD0C1BD04F710012F490 /* characteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = characteristic.m; sourceTree = "<group>"; };
+		8C9BDD0D1BD04F710012F490 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8C9BDD0E1BD04F710012F490 /* config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = config.m; sourceTree = "<group>"; };
+		8C9BDD101BD04F710012F490 /* configuration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = configuration.xcdatamodel; sourceTree = "<group>"; };
+		8C9BDD111BD04F710012F490 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		8C9BDD121BD04F710012F490 /* logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logging.m; sourceTree = "<group>"; };
+		8C9BDD131BD04F710012F490 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		8C9BDD141BD04F710012F490 /* misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = misc.m; sourceTree = "<group>"; };
+		8C9BDD151BD04F710012F490 /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		8C9BDD161BD04F710012F490 /* network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = network.m; sourceTree = "<group>"; };
+		8C9BDD171BD04F710012F490 /* peripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peripheral.h; sourceTree = "<group>"; };
+		8C9BDD181BD04F710012F490 /* peripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = peripheral.m; sourceTree = "<group>"; };
+		8C9BDD191BD04F710012F490 /* persist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = persist.h; sourceTree = "<group>"; };
+		8C9BDD1A1BD04F710012F490 /* persist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = persist.m; sourceTree = "<group>"; };
+		8C9BDD1C1BD04F710012F490 /* persistence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = persistence.xcdatamodel; sourceTree = "<group>"; };
+		8C9BDD1D1BD04F710012F490 /* scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scan.h; sourceTree = "<group>"; };
+		8C9BDD1E1BD04F710012F490 /* scan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scan.m; sourceTree = "<group>"; };
+		8C9BDD1F1BD04F710012F490 /* service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service.h; sourceTree = "<group>"; };
+		8C9BDD201BD04F710012F490 /* service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = service.m; sourceTree = "<group>"; };
+		8C9BDD531BD0922A0012F490 /* devmgrwindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = devmgrwindow.xib; sourceTree = "<group>"; };
+		8C9BDD561BD19A640012F490 /* devmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = devmgr.h; sourceTree = "<group>"; };
+		8C9BDD571BD19A640012F490 /* devmgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = devmgr.m; sourceTree = "<group>"; };
+		8CD716031BD0228500695E04 /* gwcli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gwcli; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD716061BD0228500695E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CE7267D1BD59065009547E4 /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		8CE7267E1BD59065009547E4 /* options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = options.m; sourceTree = "<group>"; };
+		8CE726811BD5B47B009547E4 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		8CE726821BD5B47B009547E4 /* util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = util.m; sourceTree = "<group>"; };
+		8CE726871BD5B840009547E4 /* devmgr_scan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = devmgr_scan.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9BDCE51BD04A4A0012F490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9BDCF71BD04A4A0012F490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD716001BD0228500695E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C9BDCE91BD04A4A0012F490 /* gwcocoa */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BDCEC1BD04A4A0012F490 /* AppDelegate.h */,
+				8C9BDCED1BD04A4A0012F490 /* AppDelegate.m */,
+				8C9BDCF11BD04A4A0012F490 /* Images.xcassets */,
+				8C9BDCF31BD04A4A0012F490 /* MainMenu.xib */,
+				8C9BDD531BD0922A0012F490 /* devmgrwindow.xib */,
+				8C9BDCEA1BD04A4A0012F490 /* Supporting Files */,
+			);
+			path = gwcocoa;
+			sourceTree = "<group>";
+		};
+		8C9BDCEA1BD04A4A0012F490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BDCEB1BD04A4A0012F490 /* Info.plist */,
+				8C9BDCEF1BD04A4A0012F490 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C9BDCFD1BD04A4A0012F490 /* gwcocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BDD001BD04A4A0012F490 /* gwcocoaTests.m */,
+				8C9BDCFE1BD04A4A0012F490 /* Supporting Files */,
+			);
+			path = gwcocoaTests;
+			sourceTree = "<group>";
+		};
+		8C9BDCFE1BD04A4A0012F490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BDCFF1BD04A4A0012F490 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C9BDD081BD04F710012F490 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				8CE7267D1BD59065009547E4 /* options.h */,
+				8CE7267E1BD59065009547E4 /* options.m */,
+				8C9BDD091BD04F710012F490 /* central.h */,
+				8C9BDD0A1BD04F710012F490 /* central.m */,
+				8C9BDD0B1BD04F710012F490 /* characteristic.h */,
+				8C9BDD0C1BD04F710012F490 /* characteristic.m */,
+				8C9BDD0D1BD04F710012F490 /* config.h */,
+				8C9BDD0E1BD04F710012F490 /* config.m */,
+				8C9BDD0F1BD04F710012F490 /* configuration.xcdatamodeld */,
+				8C9BDD111BD04F710012F490 /* logging.h */,
+				8C9BDD121BD04F710012F490 /* logging.m */,
+				8C9BDD131BD04F710012F490 /* misc.h */,
+				8C9BDD141BD04F710012F490 /* misc.m */,
+				8C9BDD151BD04F710012F490 /* network.h */,
+				8C9BDD161BD04F710012F490 /* network.m */,
+				8C9BDD171BD04F710012F490 /* peripheral.h */,
+				8C9BDD181BD04F710012F490 /* peripheral.m */,
+				8C9BDD191BD04F710012F490 /* persist.h */,
+				8C9BDD1A1BD04F710012F490 /* persist.m */,
+				8C9BDD1B1BD04F710012F490 /* persistence.xcdatamodeld */,
+				8C9BDD1D1BD04F710012F490 /* scan.h */,
+				8C9BDD1E1BD04F710012F490 /* scan.m */,
+				8C9BDD1F1BD04F710012F490 /* service.h */,
+				8C9BDD201BD04F710012F490 /* service.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		8CD715FA1BD0228500695E04 = {
+			isa = PBXGroup;
+			children = (
+				8C9BDD081BD04F710012F490 /* common */,
+				8CD716051BD0228500695E04 /* gwcli */,
+				8C9BDCE91BD04A4A0012F490 /* gwcocoa */,
+				8C9BDCFD1BD04A4A0012F490 /* gwcocoaTests */,
+				8CD716041BD0228500695E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD716041BD0228500695E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD716031BD0228500695E04 /* gwcli */,
+				8C9BDCE81BD04A4A0012F490 /* gwcocoa.app */,
+				8C9BDCFA1BD04A4A0012F490 /* gwcocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD716051BD0228500695E04 /* gwcli */ = {
+			isa = PBXGroup;
+			children = (
+				8CE726871BD5B840009547E4 /* devmgr_scan.m */,
+				8CE726811BD5B47B009547E4 /* util.h */,
+				8CE726821BD5B47B009547E4 /* util.m */,
+				8C9BDD561BD19A640012F490 /* devmgr.h */,
+				8C9BDD571BD19A640012F490 /* devmgr.m */,
+				8CD716061BD0228500695E04 /* main.m */,
+			);
+			path = gwcli;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9BDCE71BD04A4A0012F490 /* gwcocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9BDD021BD04A4A0012F490 /* Build configuration list for PBXNativeTarget "gwcocoa" */;
+			buildPhases = (
+				8C9BDCE41BD04A4A0012F490 /* Sources */,
+				8C9BDCE51BD04A4A0012F490 /* Frameworks */,
+				8C9BDCE61BD04A4A0012F490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gwcocoa;
+			productName = gwcocoa;
+			productReference = 8C9BDCE81BD04A4A0012F490 /* gwcocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C9BDCF91BD04A4A0012F490 /* gwcocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9BDD051BD04A4A0012F490 /* Build configuration list for PBXNativeTarget "gwcocoaTests" */;
+			buildPhases = (
+				8C9BDCF61BD04A4A0012F490 /* Sources */,
+				8C9BDCF71BD04A4A0012F490 /* Frameworks */,
+				8C9BDCF81BD04A4A0012F490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9BDCFC1BD04A4A0012F490 /* PBXTargetDependency */,
+			);
+			name = gwcocoaTests;
+			productName = gwcocoaTests;
+			productReference = 8C9BDCFA1BD04A4A0012F490 /* gwcocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD716021BD0228500695E04 /* gwcli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD7160A1BD0228500695E04 /* Build configuration list for PBXNativeTarget "gwcli" */;
+			buildPhases = (
+				8CD715FF1BD0228500695E04 /* Sources */,
+				8CD716001BD0228500695E04 /* Frameworks */,
+				8CD716011BD0228500695E04 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gwcli;
+			productName = gwcli;
+			productReference = 8CD716031BD0228500695E04 /* gwcli */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD715FB1BD0228500695E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Christopher Collins";
+				TargetAttributes = {
+					8C9BDCE71BD04A4A0012F490 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8C9BDCF91BD04A4A0012F490 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8C9BDCE71BD04A4A0012F490;
+					};
+					8CD716021BD0228500695E04 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 8CD715FE1BD0228500695E04 /* Build configuration list for PBXProject "gw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD715FA1BD0228500695E04;
+			productRefGroup = 8CD716041BD0228500695E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD716021BD0228500695E04 /* gwcli */,
+				8C9BDCE71BD04A4A0012F490 /* gwcocoa */,
+				8C9BDCF91BD04A4A0012F490 /* gwcocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C9BDCE61BD04A4A0012F490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BDD541BD0922A0012F490 /* devmgrwindow.xib in Resources */,
+				8C9BDCF21BD04A4A0012F490 /* Images.xcassets in Resources */,
+				8C9BDCF51BD04A4A0012F490 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9BDCF81BD04A4A0012F490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BDD551BD0922A0012F490 /* devmgrwindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9BDCE41BD04A4A0012F490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BDD401BD04F710012F490 /* scan.m in Sources */,
+				8C9BDD341BD04F710012F490 /* network.m in Sources */,
+				8C9BDD251BD04F710012F490 /* characteristic.m in Sources */,
+				8C9BDD221BD04F710012F490 /* central.m in Sources */,
+				8C9BDD2B1BD04F710012F490 /* configuration.xcdatamodeld in Sources */,
+				8C9BDD2E1BD04F710012F490 /* logging.m in Sources */,
+				8C9BDD3D1BD04F710012F490 /* persistence.xcdatamodeld in Sources */,
+				8C9BDD3A1BD04F710012F490 /* persist.m in Sources */,
+				8C9BDD371BD04F710012F490 /* peripheral.m in Sources */,
+				8C9BDD431BD04F710012F490 /* service.m in Sources */,
+				8C9BDCF01BD04A4A0012F490 /* main.m in Sources */,
+				8C9BDD311BD04F710012F490 /* misc.m in Sources */,
+				8C9BDCEE1BD04A4A0012F490 /* AppDelegate.m in Sources */,
+				8C9BDD281BD04F710012F490 /* config.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9BDCF61BD04A4A0012F490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BDD011BD04A4A0012F490 /* gwcocoaTests.m in Sources */,
+				8C9BDD2F1BD04F710012F490 /* logging.m in Sources */,
+				8C9BDD3B1BD04F710012F490 /* persist.m in Sources */,
+				8C9BDD3E1BD04F710012F490 /* persistence.xcdatamodeld in Sources */,
+				8C9BDD291BD04F710012F490 /* config.m in Sources */,
+				8C9BDD2C1BD04F710012F490 /* configuration.xcdatamodeld in Sources */,
+				8C9BDD411BD04F710012F490 /* scan.m in Sources */,
+				8C9BDD231BD04F710012F490 /* central.m in Sources */,
+				8C9BDD261BD04F710012F490 /* characteristic.m in Sources */,
+				8C9BDD381BD04F710012F490 /* peripheral.m in Sources */,
+				8C9BDD351BD04F710012F490 /* network.m in Sources */,
+				8C9BDD321BD04F710012F490 /* misc.m in Sources */,
+				8C9BDD441BD04F710012F490 /* service.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD715FF1BD0228500695E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD716071BD0228500695E04 /* main.m in Sources */,
+				8CE7267F1BD59065009547E4 /* options.m in Sources */,
+				8C9BDD2D1BD04F710012F490 /* logging.m in Sources */,
+				8C9BDD391BD04F710012F490 /* persist.m in Sources */,
+				8C9BDD3C1BD04F710012F490 /* persistence.xcdatamodeld in Sources */,
+				8CE726841BD5B47B009547E4 /* util.m in Sources */,
+				8C9BDD271BD04F710012F490 /* config.m in Sources */,
+				8C9BDD2A1BD04F710012F490 /* configuration.xcdatamodeld in Sources */,
+				8C9BDD3F1BD04F710012F490 /* scan.m in Sources */,
+				8C9BDD211BD04F710012F490 /* central.m in Sources */,
+				8C9BDD241BD04F710012F490 /* characteristic.m in Sources */,
+				8C9BDD361BD04F710012F490 /* peripheral.m in Sources */,
+				8C9BDD331BD04F710012F490 /* network.m in Sources */,
+				8C9BDD301BD04F710012F490 /* misc.m in Sources */,
+				8CE726881BD5B840009547E4 /* devmgr_scan.m in Sources */,
+				8C9BDD581BD19A640012F490 /* devmgr.m in Sources */,
+				8C9BDD421BD04F710012F490 /* service.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C9BDCFC1BD04A4A0012F490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9BDCE71BD04A4A0012F490 /* gwcocoa */;
+			targetProxy = 8C9BDCFB1BD04A4A0012F490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C9BDCF31BD04A4A0012F490 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9BDCF41BD04A4A0012F490 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C9BDD031BD04A4A0012F490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gwcocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+			};
+			name = Debug;
+		};
+		8C9BDD041BD04A4A0012F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gwcocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+			};
+			name = Release;
+		};
+		8C9BDD061BD04A4A0012F490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gwcocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gwcocoa.app/Contents/MacOS/gwcocoa";
+			};
+			name = Debug;
+		};
+		8C9BDD071BD04A4A0012F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gwcocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gwcocoa.app/Contents/MacOS/gwcocoa";
+			};
+			name = Release;
+		};
+		8CD716081BD0228500695E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CD716091BD0228500695E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CD7160B1BD0228500695E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+			};
+			name = Debug;
+		};
+		8CD7160C1BD0228500695E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9BDD021BD04A4A0012F490 /* Build configuration list for PBXNativeTarget "gwcocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9BDD031BD04A4A0012F490 /* Debug */,
+				8C9BDD041BD04A4A0012F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9BDD051BD04A4A0012F490 /* Build configuration list for PBXNativeTarget "gwcocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9BDD061BD04A4A0012F490 /* Debug */,
+				8C9BDD071BD04A4A0012F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD715FE1BD0228500695E04 /* Build configuration list for PBXProject "gw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD716081BD0228500695E04 /* Debug */,
+				8CD716091BD0228500695E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD7160A1BD0228500695E04 /* Build configuration list for PBXNativeTarget "gwcli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD7160B1BD0228500695E04 /* Debug */,
+				8CD7160C1BD0228500695E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C9BDD0F1BD04F710012F490 /* configuration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C9BDD101BD04F710012F490 /* configuration.xcdatamodel */,
+			);
+			currentVersion = 8C9BDD101BD04F710012F490 /* configuration.xcdatamodel */;
+			path = configuration.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8C9BDD1B1BD04F710012F490 /* persistence.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C9BDD1C1BD04F710012F490 /* persistence.xcdatamodel */,
+			);
+			currentVersion = 8C9BDD1C1BD04F710012F490 /* persistence.xcdatamodel */;
+			path = persistence.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CD715FB1BD0228500695E04 /* Project object */;
+}

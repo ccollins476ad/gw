@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D2134" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Cfg" representedClassName="Cfg" syncable="YES">
+        <relationship name="peripherals" toMany="YES" deletionRule="Nullify" destinationEntity="CfgPeripheral" syncable="YES"/>
+    </entity>
+    <entity name="CfgCharacteristic" representedClassName="CfgCharacteristic" syncable="YES">
+        <attribute name="notify" attributeType="Boolean" syncable="YES"/>
+        <attribute name="readFreqSecs" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CfgPeripheral" representedClassName="CfgPeripheral" syncable="YES">
+        <attribute name="stayConnected" attributeType="Boolean" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="services" toMany="YES" deletionRule="Nullify" destinationEntity="CfgService" syncable="YES"/>
+    </entity>
+    <entity name="CfgService" representedClassName="CfgService" syncable="YES">
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="characteristics" toMany="YES" deletionRule="Nullify" destinationEntity="CfgCharacteristic" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cfg" positionX="18" positionY="99" width="128" height="60"/>
+        <element name="CfgCharacteristic" positionX="-27" positionY="18" width="128" height="90"/>
+        <element name="CfgPeripheral" positionX="54" positionY="117" width="128" height="90"/>
+        <element name="CfgService" positionX="18" positionY="90" width="128" height="75"/>
+    </elements>
+</model>
